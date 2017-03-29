@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700,800');
+
+html,body{
+	height: 100%;
+	margin: 0 auto;
+	max-width: 1240px;
+}
+
+body{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	line-height: 1.4;
+}
+
+.wrap{
+	box-sizing: border-box;
+	position: relative;
+	height: 100%;
+	width:100%;
+	background: url(../img/main-bg.png) fixed no-repeat;
+	background-size: cover;
+}
+
+.daily-form{
+	position: absolute;
+	width: 37%;
+	margin: 0 auto;
+	height: 73%;
+	background: white;
+	top: 50%;
+	left: 0;
+	right: 0;
+	transform: translateY(-50%);
+}
+
+span{
+	color: #ea355a;
+}
+
+a{
+	text-decoration: none;
+}
+
+.form-title{
+	/*display: inline-block;*/
+	box-sizing: border-box;
+	height: 410px;
+}
+
+.form-title__key{
+	display: inline-block;
+}
+
+.form-title__create{
+	display: inline-block;
+}
+
+h1{
+	margin-bottom: 0;
+	font-size: 24px;
+	font-family: 'Open Sans';
+	font-weight: 700;
+}
+
+.form-title__create p{
+	font-family: 'Open Sans';
+	font-size: 13px;
+	font-weight: 400;
+	color: #7a7b7f;
+}
+
+input{
+	line-height: 2.71rem;
+	border: none;
+	background: #f0f0f0;
+	border-radius: 7px;
+	box-sizing: border-box;
+	padding-left: 1rem;
+}
+
+.main{
+	width: 87%;
+	height: 86%;
+	margin: 0 auto;
+
+}
+
+.main-info{
+	margin-top: 1.4rem;
+}
+
+input[name^="First-name"],
+input[name^="Last name"]{
+	width: 47.5%;
+}
+
+input[name^="Last name"]{
+	margin-left: 1rem;
+}
+
+input[name^="Email"]{
+	width: 100%;
+	margin: 1.2rem auto;
+}
+
+input[name^="Password"]{
+	width: 100%;
+
+}
+
+button{
+	width: 100%;
+	margin-top: 1.07rem;
+	height: 3.64rem;
+	background: #ea355a;
+	font-weight: 600;
+	color: white;
+	border-radius: 7px;
+	border: none;
+	border-bottom: 2px solid #bd1962;
+	font-size: 18px;
+}
+
+button:hover{
+	background: white;
+	color: #ea355a;
+	transition: all 0.5s ease;
+	border: 2px solid #ea355a;
+	font-family: 'Open Sans';
+	font-weight: 800;
+	font-size: 22px;
+
+}
+
+.text-under{
+	margin: 0 auto;
+	box-sizing: border-box;
+	padding-top: 0.8rem;
+}
+
+.text-under p{
+	font-family: 'Open Sans';
+	font-size: 12px;
+	font-weight: 400;
+	color: #7a7b7f;
+}
+/*.main-info{
+	margin-top: 2.4rem;
+}*/
